@@ -16,7 +16,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	LPTSTR arguments = new TCHAR[wcslen(lpCmdLine)+2];
 	arguments[0] = L'\0';
 
-	wcscat(arguments, L"\"");
+	bool argumentsPassed = false;
 	for( int i=1; i < __argc; i++)
 	{
 		if (wcscmp(__wargv[i], L"-z") == 0)
@@ -26,11 +26,17 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 		}
 		else
 		{
+			if (argumentsPassed == false)
+				wcscat(arguments, L"\"");
+
+			argumentsPassed = true;
 			wcscat(arguments, __wargv[i]);
 			wcscat(arguments, L" ");
 		}
 	}
-	wcscat(arguments, L"\"");
+
+	if (argumentsPassed == true)
+		wcscat(arguments, L"\"");
 	
 	wchar_t* sublimeExe = _wcsdup(__wargv[0]);
 	sublimeExe[wcslen(sublimeExe) - wcslen(L"SublimeLauncher.exe")] = '\0';
