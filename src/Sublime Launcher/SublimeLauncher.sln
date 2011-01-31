@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SublimeLauncher", "SublimeLauncher\SublimeLauncher.vcxproj", "{66227A58-31B0-4CB0-A9C0-F950CA801F45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6FFE6E4-4081-4B86-8772-B0C70FA30D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66227A58-31B0-4CB0-A9C0-F950CA801F45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66227A58-31B0-4CB0-A9C0-F950CA801F45}.Debug|Win32.Build.0 = Debug|Win32
+		{66227A58-31B0-4CB0-A9C0-F950CA801F45}.Release|Win32.ActiveCfg = Release|Win32
+		{66227A58-31B0-4CB0-A9C0-F950CA801F45}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
