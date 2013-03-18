@@ -28,10 +28,11 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 		{
 			if (argumentsPassed == false)
 				wcscat(arguments, L"\"");
+			else
+				wcscat(arguments, L" ");
 
 			argumentsPassed = true;
 			wcscat(arguments, __wargv[i]);
-			wcscat(arguments, L" ");
 		}
 	}
 
