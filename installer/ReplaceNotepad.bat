@@ -1,6 +1,6 @@
 @echo off
 @echo.
-if not exist sublime_text.exe (
+if not exist "%~dp0SublimeLauncher.exe" (
 	echo Warning: Can't find sublime_text.exe. You must put these files in your
 	echo Sublime Text directory before running this file.
 	echo Press enter to continue anyway...
