@@ -7,7 +7,7 @@ More information about Sublime Text can be found on [the Sublime Text website](h
 
 ### Installation
 
-* Download [SublimeLauncher.zip](zip/SublimeLauncher.zip).
+* Download [SublimeLauncher.zip](zip/SublimeLauncher.zip?raw=true).
 * Extract the three files in the ZIP (`SublimeLauncher.exe`, `ReplaceNotepad.bat` and `RevertNotepadRedirection.bat`) to the same directory as Sublime Text itself (usually `C:\Program Files\Sublime Text 3\`).
 * Run `ReplaceNotepad.bat`. You will need to right-click and "_Run as administrator_" if using Vista or later.
 
